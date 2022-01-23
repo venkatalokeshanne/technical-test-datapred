@@ -1,23 +1,23 @@
 ## HOW TO RUN TO THIS REACT APPLICATION WITHOUT CORS ERROR:
 
-I had a CORS error which need to be resolved in backend,
-Usually its not possible to test the api in browser without adding some parameters in backend related to cors,
-It will work on api testing tools like 'postman' but when it comes to browser it will fail.
+I had a CORS error which need to be resolved in backend,.\
+Usually its not possible to test the api in browser without adding some parameters in backend related to cors,.\
+It will work on api testing tools like 'postman' but when it comes to browser it will fail..\
 
-However since i dont have time to contact the backend to resolve this.
-I disable the cors in my chrome browser windows.
+However since i dont have time to contact the backend to resolve this..\
+I disable the cors in my chrome browser windows..\
 I added the instructions below to disable also on your browser for the app to work.
 
 ##  For Windows:
 
-Open the start menu
-Type windows+R or open “Run”
-Execute the following command: chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+Open the start menu.\
+Type windows+R or open “Run”.\
+Execute the following command: chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security.\
 
 ##  For Mac:
 
-Go to Terminal
-Execute the following command: open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security
+Go to Terminal.\
+Execute the following command: open /Applications/Google\ Chrome.app --args --user-data-dir="/var/tmp/Chrome dev session" --disable-web-security.\
 
 ## Available Scripts
 
