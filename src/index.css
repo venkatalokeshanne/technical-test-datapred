@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+td {
+  padding: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+table {
+  border: solid 1px gray;
+  border-spacing: 0;
+  width: 90%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.color-red {
+  color: red;
+}
+
